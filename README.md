@@ -21,6 +21,12 @@ Example
 This is a basic example which shows you how to solve a common problem:
 
 ``` r
-#my_sample <- rgamma(50, shape=2, scale=4)
-#mom_gamma(my_sample)
+library(paretopractice)
+my_sample <- rgamma(100, shape=2, scale=4)
+mom_gamma(my_sample)
+#> $k_hat
+#> [1] 2.020066
+#> 
+#> $theta_hat
+#> [1] 3.766173
 ```
