@@ -3,6 +3,7 @@
 .RData
 .Ruserdata
 paretopractice.Rproj
+.gitignore
 *.rmd
 *.o
 *.so
