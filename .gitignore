@@ -8,3 +8,4 @@ paretopractice.Rproj
 *.o
 *.so
 *.dll
+inst/doc
